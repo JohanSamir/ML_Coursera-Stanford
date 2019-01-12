@@ -45,14 +45,13 @@ fprintf(' x = [%.0f %.0f], y = %.0f \n', [X(1:10,:) y(1:10,:)]');
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
-
 % Scale features and set them to zero mean
 fprintf('Normalizing Features ...\n');
 
 [X mu sigma] = featureNormalize(X);
-fprintf('Normalizing Features X %f\n',[X]);
-fprintf('Normalizing Features mu %f\n',[mu]);
-fprintf('Normalizing Features sigma %f\n',[sigma]);
+#fprintf('Normalizing Features X %f\n',[X]);
+#fprintf('Normalizing Features mu %f\n',[mu]);
+#fprintf('Normalizing Features sigma %f\n',[sigma]);
 
 % Add intercept term to X
 X = [ones(m, 1) X];
@@ -124,7 +123,18 @@ pause;
 %% ================ Part 3: Normal Equations ================
 
 fprintf('Solving with normal equations...\n');
+data = load('ex1data2.txt');
+X = data(:, 1:2);
+#% Add intercept term to X
+X = [ones(m, 1) X];
 
+% Calculate the parameters from the normal equation
+theta = normalEqn(X, y);
+
+% Display normal equation's result
+fprintf('Theta computed from the normal equations: \n');
+fprintf(' %f \n', theta);
+fprintf('\n');
 % ====================== YOUR CODE HERE ======================
 % Instructions: The following code computes the closed form 
 %               solution for linear regression using the normal
@@ -135,22 +145,8 @@ fprintf('Solving with normal equations...\n');
 %               to predict the price of a 1650 sq-ft, 3 br house.
 %
 
-%% Load Data
-data = csvread('ex1data2.txt');
-X = data(:, 1:2);
-y = data(:, 3);
-m = length(y);
 
-% Add intercept term to X
-X = [ones(m, 1) X];
 
-% Calculate the parameters from the normal equation
-theta = normalEqn(X, y);
-
-% Display normal equation's result
-fprintf('Theta computed from the normal equations: \n');
-fprintf(' %f \n', theta);
-fprintf('\n');
 
 
 % Estimate the price of a 1650 sq-ft, 3 br house
