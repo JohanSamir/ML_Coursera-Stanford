@@ -3,5 +3,5 @@
   
 <A href='https://nbviewer.jupyter.org/github/JohanSamir/ML_Coursera-Stanford/blob/master/1.%20Programming%20Assignment_Linear%20Regression.ipynb'>1.Programming Assignment 1: Linear Regression</A><BR>
   
-  
+<A href='https://nbviewer.jupyter.org/github/JohanSamir/ML_Coursera-Stanford/blob/master/2.%20Programming%20Exercise%202_Logistic%20Regression.ipynb'>2. Programming Exercise 2: Logistic Regression</A><BR>  
   
