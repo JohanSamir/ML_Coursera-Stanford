@@ -5,3 +5,4 @@
   
 <A href='https://nbviewer.jupyter.org/github/JohanSamir/ML_Coursera-Stanford/blob/master/2.%20Programming%20Exercise%202_Logistic%20Regression.ipynb'>2. Programming Exercise 2: Logistic Regression</A><BR>  
   
+<A href='https://nbviewer.jupyter.org/github/JohanSamir/ML_Coursera-Stanford/blob/master/2.%20Programming%20Exercise%202_Logistic%20Regression.ipynb'>3. Multi-class Classification and Neural Networks</A><BR> 
