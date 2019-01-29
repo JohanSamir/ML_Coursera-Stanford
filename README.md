@@ -13,6 +13,6 @@
   
 <A href='https://nbviewer.jupyter.org/github/JohanSamir/ML_Coursera-Stanford/blob/master/6.%20Support%20Vector%20Machines.ipynb'>6. Support Vector Machines</A><BR> 
 
-<A href='https://nbviewer.jupyter.org/github/JohanSamir/ML_Coursera-Stanford/blob/master/7.%20K-means%20Clustering%20and%20Principal%20Component%20Analysis.ipynb>K-means Clustering and Principal Component Analysis</A><BR> 
+<A href='https://nbviewer.jupyter.org/github/JohanSamir/ML_Coursera-Stanford/blob/master/7.%20K-means%20Clustering%20and%20Principal%20Component%20Analysis.ipynb'>K-means Clustering and Principal Component Analysis</A><BR> 
 
 
