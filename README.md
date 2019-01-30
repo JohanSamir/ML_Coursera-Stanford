@@ -15,4 +15,4 @@
 
 <A href='https://nbviewer.jupyter.org/github/JohanSamir/ML_Coursera-Stanford/blob/master/7.%20K-means%20Clustering%20and%20Principal%20Component%20Analysis.ipynb'>7. K-means Clustering and Principal Component Analysis</A><BR> 
 
-
+<A href='https://nbviewer.jupyter.org/github/JohanSamir/ML_Coursera-Stanford/blob/master/8.%20Anomaly%20Detection%20and%20Recommender%20Systems.ipynb'> </A>8. Anomaly Detection<BR> 
